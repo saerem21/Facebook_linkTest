@@ -38,10 +38,8 @@
 		0042008E188E386200A7FEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00420090188E386200A7FEF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		00420092188E386200A7FEF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		00420096188E386200A7FEF8 /* Facebook_linkTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Facebook_linkTest-Info.plist"; sourceTree = "<group>"; };
 		00420098188E386200A7FEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0042009A188E386200A7FEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0042009C188E386200A7FEF8 /* Facebook_linkTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook_linkTest-Prefix.pch"; sourceTree = "<group>"; };
 		0042009D188E386200A7FEF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0042009E188E386200A7FEF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		004200A1188E386200A7FEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,7 @@
 		004200B5188E386200A7FEF8 /* Facebook_linkTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Facebook_linkTestTests-Info.plist"; sourceTree = "<group>"; };
 		004200B7188E386200A7FEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		004200B9188E386200A7FEF8 /* Facebook_linkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facebook_linkTestTests.m; sourceTree = "<group>"; };
+		004200C5188E392500A7FEF8 /* facebook-ios-sdk-3.11.1.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "facebook-ios-sdk-3.11.1.pkg"; path = "../../../Downloads/facebook-ios-sdk-3.11.1.pkg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +100,7 @@
 		0042008D188E386200A7FEF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				004200C5188E392500A7FEF8 /* facebook-ios-sdk-3.11.1.pkg */,
 				0042008E188E386200A7FEF8 /* Foundation.framework */,
 				00420090188E386200A7FEF8 /* CoreGraphics.framework */,
 				00420092188E386200A7FEF8 /* UIKit.framework */,
@@ -126,10 +126,8 @@
 		00420095188E386200A7FEF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00420096188E386200A7FEF8 /* Facebook_linkTest-Info.plist */,
 				00420097188E386200A7FEF8 /* InfoPlist.strings */,
 				0042009A188E386200A7FEF8 /* main.m */,
-				0042009C188E386200A7FEF8 /* Facebook_linkTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
